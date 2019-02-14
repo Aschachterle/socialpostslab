@@ -1,0 +1,81 @@
+/* font-family: 'Homemade Apple', cursive;
+font-family: 'Dosis', sans-serif; */
+
+/* 
+1. Font-family: Homemade Apple, Dosis (both Google Fonts)
+2. Icon font: Material Icons
+3. Border-radius: 5px
+4. Post title font-size: 24px
+5. Form width: 50% */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f1f7;
+}
+.title {
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(3, 169, 244);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.addPostButton {
+    all: none;
+    width: 100%;
+    border: 1px solid black;
+    font-family: 'Dosis', sans-serif; 
+    border-radius: 5px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.mainSection {
+ width: 70%;
+ background-color: #f3f1f7;
+}
+.postsSection {
+    margin-top: 20px;
+    background-color: white;
+    font-family: 'Dosis', sans-serif; 
+    padding: 10px 30px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+p {
+    margin: 0;
+}
+.messageAndDelete {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.postTitle {
+    font-size: 24px;
+}
+.deletePost {
+    border: none;
+}
+.formBackground {
+    background-color: #B1DDEA;
+    position: absolute;
+    font-family: 'Dosis', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 50%;
+}
+.modalForm {
+    display: flex;
+    flex-direction: column;
+}
